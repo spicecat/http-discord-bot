@@ -1,0 +1,30 @@
+{
+    "name": "http-discord-bridge",
+    "version": "0.1.0",
+    "description": "Use Discord bot slash commands with REST API.",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm start -w client & npm start -w server",
+        "start:client": "npm start -w client",
+        "start:server": "npm start -w server",
+        "dev": "npm run dev -w client & npm run dev -w server",
+        "dev:client": "npm run dev -w client",
+        "dev:server": "npm run dev -w server",
+        "build": "npm run build -w client",
+        "predeploy": "npm run predeploy -w client",
+        "deploy": "npm run deploy -w client"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/spicecat/http-discord-bot.git"
+    },
+    "author": "spicecat",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/spicecat/http-discord-bot/issues"
+    },
+    "workspaces": [
+        "client",
+        "server"
+    ]
+}

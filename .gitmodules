@@ -1,0 +1,8 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/spicecat/http-discord-bridge-client.git
+	branch = main
+[submodule "server"]
+	path = server
+	url = https://github.com/spicecat/http-discord-bridge-server.git
+	branch = main
