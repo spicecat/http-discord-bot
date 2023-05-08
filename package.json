@@ -16,12 +16,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/spicecat/http-discord-bot.git"
+        "url": "git+https://github.com/spicecat/http-discord-bridge.git"
     },
     "author": "spicecat",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/spicecat/http-discord-bot/issues"
+        "url": "https://github.com/spicecat/http-discord-bridge/issues"
     },
     "workspaces": [
         "client",
